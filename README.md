@@ -2,9 +2,9 @@
 ## Table of Contents
 * [About](#About)
 * [Overview](#Overview)
-  * [Lateral Control](<Lateral Control>)
-  * [Depth Control](<Depth Control>)
-  * [Hull/Configuration](<Hull/Configuration>)
+  * [Lateral Control](<#Lateral%20Control>)
+  * [Depth Control](<#Depth Control>)
+  * [Hull/Configuration](<#Hull/Configuration>)
   * [Power](<#Power>)
   * [Communication](<#Communication>)
   * [Video](<#Video>)
