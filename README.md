@@ -10,9 +10,9 @@ The goal of this project is to create a fully functional underwater ROV without 
 
 ## Overview
 In order to complete the goal several components must be considered: lateral control, depth control, hull/configuration, power, communication, and video.
-### Lateral Control
-### Depth Control
-### Hull/Configuration
-### Power
-### Communication
-### Video
+#### Lateral Control
+#### Depth Control
+#### Hull/Configuration
+#### Power
+#### Communication
+#### Video
