@@ -2,7 +2,12 @@
 ## Table of Contents
 * [About](#About)
 * [Overview](#Overview)
-* [Operation](#Operation)
+  * [Lateral Control](<#Lateral Control>)
+  * [Depth Control](<#Depth Control>)
+  * [Hull/Configuration](<#Hull/Configuration>)
+  * [Power](<#Power>)
+  * [Communication](<#Communication>)
+  * [Video](<#Video>)
 * [Improvements](#Improvements)
 
 ## About
