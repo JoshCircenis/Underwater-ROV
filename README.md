@@ -2,9 +2,9 @@
 ## Table of Contents
 * [About](#About)
 * [Overview](#Overview)
-  * [Lateral Control](<#Lateral Control>)
-  * [Depth Control](<#Depth Control>)
-  * [Hull/Configuration](<#Hull/Configuration>)
+  * [Lateral Control](<Lateral Control>)
+  * [Depth Control](<Depth Control>)
+  * [Hull/Configuration](<Hull/Configuration>)
   * [Power](<#Power>)
   * [Communication](<#Communication>)
   * [Video](<#Video>)
@@ -32,7 +32,7 @@ The third configuration utilizes four thrusters which are all placed at an angle
 
 This configuration is a balance between having full maneuverability and power. In this configuration, depending on the mixing, all motors can be used for both forward and reverse thrust and for turning. However, this configuration is more complicated.
 
-After reviewing all of these propulsion configurations, I decided to use the first configuration with two motors. This is because for this ROV a key part of the goal is to keep down cost and complexity. To achieve this I was able to find a dual-motor brushed ESC that included the motors, shafts, and propellers which can be found here: https://www.amazon.com/dp/B0BYSG6JR1. This product is designed for RC boats but with the proper construction, this should still work for the ROV. The main thing to consider is how to seal the shaft, the product that I am using comes with tubes that can be used as a stuffing box which is how I will be waterproofing the shaft. This works to waterproof a shaft for a boat but the ROV will be at depth which will put pressure on the seal and could cause leaking. To avoid this I will also be using O-rings which should increase the ability of the shaft to seal under pressure. But there is still a chance of leaking, so the motors will be placed in two isolated nacelles so that even if the seal leaks all of the electronics will be isolated from the leak so the affect is minimized.
+After reviewing all of these propulsion configurations, I decided to use the first configuration with two motors. This is because for this ROV a key part of the goal is to keep down cost and complexity. To achieve this I was able to find a dual-motor brushed ESC that included the motors, shafts, and propellers which can be found here: https://www.amazon.com/dp/B0BYSG6JR1. This product is designed for RC boats but with the proper construction, this should still work for the ROV. The main thing to consider is how to seal the shaft, the product that I am using comes with tubes that can be used as a stuffing box which is how I will be waterproofing the shaft. This works to waterproof a shaft for a boat but the ROV will be at depth which will put pressure on the seal and could cause leaking. To avoid this I will also be using O-rings which should increase the ability of the shaft to seal under pressure. But there is still a chance of leaking, so the motors will be placed in two isolated nacelles so that even if the seal leaks all of the electronics will be isolated from the leak so the damage is minimized.
 
 #### Depth Control
 #### Hull/Configuration
