@@ -12,13 +12,12 @@ The goal of this project is to create a fully functional underwater ROV without 
 In order to complete the goal several components must be considered: lateral control, depth control, hull/configuration, power, communication, and video.
 #### Lateral Control
 To move freely in a body of water most ROVs use thrusters in a variety of configurations for maneuverability. There are three commonly used configurations for ROV propulsion each of which has its own influence on the power, electronics, and number of thrusters needed to function. The first configuration utilizes two thrusters in the same orientation situated on each side of the ROV as shown below.
-
-![two thruster propulsion](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/8099c511-6530-46c1-86c4-4f44a336e865)
-![two thruster propulsion maneuverability](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/9ca38ea4-d64d-4434-b501-fdb66d61c851)
+![two thruster propulsion](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/8099c511-6530-46c1-86c4-4f44a336e865) ![two thruster propulsion maneuverability](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/9ca38ea4-d64d-4434-b501-fdb66d61c851)
 
 This configuration uses differential control for turning and drives both thrusters at the same level for forward and reverse. The benefit of this propulsion configuration is that it is very simple in terms of thrusters, electronics, and power. The main drawback is that this configuration is less maneuverable and generally less powerful than other configurations. To improve maneuverability the thrusters can be installed at an angle, this improves the turning ability but can reduce the forward and reverse thrust.
 
 The second configuration utilizes three to four thrusters where two are placed in the same configuration as the previous, but additional thrusters are placed perpendicular to the first set as shown below.
+
 ![three thruster](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/2091a08d-ef15-451f-8c5d-68c65e38adff) ![four thruster](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/00e6871d-880b-4375-a48e-ec2cab729856)
 
 This configuration requires more power and electronics because there are more thrusters but it is more powerful and maneuverable than the previous configuration.
