@@ -4,7 +4,7 @@
 * [Overview](#Overview)
   * [Lateral Control](<#Lateral-Control>)
   * [Depth Control](<#Depth-Control>)
-  * [Hull/Configuration](<#HullConfiguration>)
+  * [Hull](<#Hull>)
   * [Communication](<#Communication>)
 * [Improvements](#Improvements)
 
@@ -12,7 +12,7 @@
 The goal of this project is to create a fully functional underwater ROV without spending a lot of money. This means that the ROV should be able to move freely horizontally and vertically throughout a body of water and should be able to send and record live video.
 
 ## Overview
-In order to complete the goal several components must be considered: lateral control, depth control, hull/configuration, power, communication, and video.
+In order to complete the goal several components must be considered: lateral control, depth control, hull, power, communication, and video.
 #### Lateral Control
 To move freely in a body of water most ROVs use thrusters in a variety of configurations for maneuverability. There are three commonly used configurations for ROV propulsion each of which has its own influence on the power, electronics, and number of thrusters needed to function. The first configuration utilizes two thrusters in the same orientation situated on each side of the ROV as shown below.
 
@@ -40,7 +40,7 @@ https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/2553f830-2ba3-4c8
 
 The final ROV will have two of these allowing for 50mL of water to be displaced. This solution cut down the cost and complexity a lot because each tank can simply be driven as a regular servo and the components used to create the tanks were inexpensive. Additionally, the ROV will have two of these tanks, one on each end, which will allow for pitch control by moving the center of mass of the ROV between the two tanks.
 
-#### Hull/Configuration
+#### Hull
 Many ROVs use a frame design where a PVC frame holds all of the components of the ROV. However, because of the motors that I am using, I decided to go for a more hydrodynamic and streamlined design to reduce drag. Additionally, I would like to minimize the amount of material necessary for the hull by reducing complexity. Because of this, I decided to use three feet of 4" schedule 40 PVC pipe to house everything except for the motors which will be in two smaller side nacelles as previously stated. This will keep down the cost and complexity while still creating a functional and pressure-resistant hull. Also, to improve footage recorded from the ROV the front will have a clear dome which will allow for a greater field of view for the cameras. Below is a 3D model similar to how it should look once completed
 
 ![ROV hull](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/2d467245-4f73-4e28-885b-b53a43d6a2e1)
