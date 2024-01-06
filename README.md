@@ -12,7 +12,7 @@
 The goal of this project is to create a fully functional underwater ROV without spending a lot of money. This means that the ROV should be able to move freely horizontally and vertically throughout a body of water and should be able to send and record live video.
 
 ## Overview
-In order to complete the goal several components must be considered: lateral control, depth control, hull, power, communication, and video.
+
 #### Lateral Control
 To move freely in a body of water most ROVs use thrusters in a variety of configurations for maneuverability. There are three commonly used configurations for ROV propulsion each of which has its own influence on the power, electronics, and number of thrusters needed to function. The first configuration utilizes two thrusters in the same orientation situated on each side of the ROV as shown below.
 
@@ -52,3 +52,5 @@ Below is a photo of all of the components for both the ROV and the float laid ou
 
 ![IMG_3182](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/349a236f-55a3-46cc-8223-dbc40021fa7b)
 
+## Improvements
+Since this project has not been completed yet I am not sure about improvements that need to be made, but I am suspicious of the shaft seals and power. Because the motors that I am using are made for a boat that is smaller and has less drag I am concerned about the ROV being extremely slow. Also, I am planning on using a tube filled with grease that goes around the shaft with a tight tolerance to seal the drive shaft but this might not work at depth. It is not a huge issue if it leaks because the motors shouldn't break and they are completely isolated from the main tube so it won't damage the electronics. However, I don't want it to leak and I have some preemptive ideas that could fix it, such as 3D printing a grease trap that incorporates several O-rings or adding a flexible membrane to the nacelle to equalize pressure during the dive. But I will first have to wait till the first test to see if the original plan works before implementing these.
