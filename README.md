@@ -43,7 +43,7 @@ The final ROV will have two of these allowing for 50mL of water to be displaced.
 #### Hull
 Many ROVs use a frame design where a PVC frame holds all of the components of the ROV. However, because of the motors that I am using, I decided to go for a more hydrodynamic and streamlined design to reduce drag. Additionally, I would like to minimize the amount of material necessary for the hull by reducing complexity. Because of this, I decided to use three feet of 4" schedule 40 PVC pipe to house everything except for the motors which will be in two smaller side nacelles as previously stated. This will keep down the cost and complexity while still creating a functional and pressure-resistant hull. Also, to improve footage recorded from the ROV the front will have a clear dome which will allow for a greater field of view for the cameras. Below is a 3D model that outlines the structure and is similar to how it should look once completed
 
-![ROV](https://github.com/JoshCircenis/Underwater-ROV/assets/98178221/b1d3c77b-2ff8-4273-b0a5-bd9ef838b1e7)
+![ROV](https://github.com/user-attachments/assets/7c314aeb-b931-425d-bb2e-330d79057c5c)
 
 
 #### Communication
